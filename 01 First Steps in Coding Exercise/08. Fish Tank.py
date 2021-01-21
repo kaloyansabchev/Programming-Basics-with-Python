@@ -12,14 +12,6 @@
 #     4. Процент зает обем – реално число
 
 
-
-
-#
-#
-#
-
-
-
 length = int(input())
 width = int(input())
 hight = int(input())
