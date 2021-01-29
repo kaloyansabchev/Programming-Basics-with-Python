@@ -6,7 +6,7 @@ eggs_left = start_quantity
 eggs_sold = 0
 sold_out = True
 
-while command != 'Close' or eggs_left:
+while True:
     if command == "Buy":
         eggs_left -= eggs
         eggs_sold += eggs
