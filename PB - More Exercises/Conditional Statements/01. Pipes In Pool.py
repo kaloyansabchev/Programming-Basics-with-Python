@@ -9,7 +9,7 @@ p1_v = p1 * h
 p2_v = p2 * h
 total_v = p1_v + p2_v
 
-if total_v < volume:
+if total_v <= volume:
     to_full = total_v / volume
     percentage_p1 = p1_v / total_v
     percentage_p2 = p2_v / total_v
